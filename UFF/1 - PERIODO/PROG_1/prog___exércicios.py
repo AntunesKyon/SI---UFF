@@ -20,12 +20,12 @@ if mil%2 ==0:
 
 ###############################################################################################################################
 
-ms = float(input("Digite a quantidade de segundos do evento: ")
+ms = float(input("Digite a quantidade de segundos do evento: "))
 s = ms//1000
 h = s//360
 s = s%360
-m = s//6
-s = s% 0
+m = s//60
+s = s% 60
 print(f'A quantidade total de segundos foi {s} e o total de horas foi {h} o de minutos {m}')
 
 
