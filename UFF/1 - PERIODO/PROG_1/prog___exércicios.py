@@ -17,3 +17,15 @@ if mil%2 ==0:
     qtd_total_hor = qtd_total_min / 60
     qtd_total_hors = str(qtd_total_hor)[:2]
     print(f'A Duração do evento e {seg} segundo e {qtd_total_min:.0f} minutos e {qtd_total_hors} horas')
+
+###############################################################################################################################
+
+ms = float(input("Digite a quantidade de segundos do evento: ")
+s = ms//1000
+h = s//360
+s = s%360
+m = s//6
+s = s% 0
+print(f'A quantidade total de segundos foi {s} e o total de horas foi {h} o de minutos {m}')
+
+
